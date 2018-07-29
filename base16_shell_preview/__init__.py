@@ -6,7 +6,7 @@ import subprocess
 CURRENT_THEME = os.readlink(os.path.expanduser('~/.base16_theme'))
 BASE16_SCRIPTS_DIR = os.path.split(CURRENT_THEME)[0]
 
-SHELL = os.environ['SHELL']
+SHELL = "sh"
 
 NUM_COLORS = 22
 
